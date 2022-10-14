@@ -1,0 +1,85 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.notification-card-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 20px;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+.information-container {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+.success-container {
+  background-color: #2dca73;
+  border-radius: 5px;
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+
+.warning-container {
+  background-color: #ffb800;
+  border-radius: 5px;
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+
+.danger-container {
+  background-color: #ff0b37;
+  border-radius: 5px;
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+}
+
+.text {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 26px;
+}
